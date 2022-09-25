@@ -23,4 +23,4 @@ COPY start.sh start.sh
 RUN chmod +x start.sh
 COPY serverconfig.txt serverconfig.txt
 
-ENTRYPOINT [ "bash" ]
+ENTRYPOINT [ "bash", "start.sh" ]
