@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  server:
+    ports:
+      - 7777:7777
+    build: ./
+    volumes:
+      - ./Mods:/root/.local/share/Terraria/tModLoader/Mods
+      - ./Worlds:/root/.local/share/Terraria/tModLoader/Worlds

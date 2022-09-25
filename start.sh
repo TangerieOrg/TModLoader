@@ -1,0 +1,1 @@
+bash ./LaunchUtils/ScriptCaller.sh -server -config serverconfig.txt -lobby private
